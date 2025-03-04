@@ -1,6 +1,2 @@
 # Stitching-of-Como-Photos
-The reposotirory contains an Jupyter Notebook main.ipynb which provide the code of the process of stitching a pair of custom images taken at Como Lake, which have a partial overlap. The goal is to:
--Extract keypoints and find matches,
--Find the homography which describes the transformation from the second set of kaypoints to the first one
--Apply the homography to the second image
--Integrate with the first image
+This repository contains a Jupyter Notebook (main.ipynb) that provides code for stitching a pair of custom images taken at Como Lake with partial overlap. The goal is to compute the homography that describes the transformation from the matched keypoints of the first photo to the second. This homography is then applied to the second image, allowing it to be seamlessly integrated with the first image.
